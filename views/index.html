@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>URL Shortener Microservice</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    </head>
+
+    <body class="text-center">
+        <header>
+            <h1>URL Shortener Microservice</h1>
+            <hr>
+        </header>
+        <main>
+            <h3 class="font-weight-bold">Project Usage</h3>
+            <p class="font-weight-bold">
+                Add a site's address to the url above to receive a shortened url which will in 
+                turn redirect you to your original url
+            </p>
+            <br>
+            <br>
+            <ul class="list-group">
+                <li>
+                    Follow the following pattern while typing your original url:
+                    <code>base_url/new/{TYPE_SITE_ADDRESS}</code>
+                </li>
+                <li>
+                    You will get a JSON response with your original url and a 
+                    shorter url. Copy the shorter url value and paste it as such: 
+                    <code>base_url/{SHORTER_URL_VALUE_GOES_HERE}</code>
+                </li>
+                <li>
+                    You will be redirected to your original url. 
+                </li>
+            </ul>
+            <h6>The code for this project is available on 
+                <a href="https://github.com/CharlesMarlow/url-shortener-microservice" target="blank">Github</a>
+            </h6>
+        </main>
+    </body>
+</html>
